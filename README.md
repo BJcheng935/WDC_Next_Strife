@@ -64,8 +64,3 @@ Dependencies
 @stripe/react-stripe-js
 stripe
 next
-<<<<<<< HEAD
-react
-=======
-react
->>>>>>> cb45342115d536fda93ec5a0e448b07644ae3531
