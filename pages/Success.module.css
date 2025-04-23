@@ -1,0 +1,81 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 3rem;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.checkmark {
+    color: #48bb78;
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    color: #2d3748;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.message {
+    color: #718096;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.details {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.details p {
+    margin: 0.5rem 0;
+    color: #4a5568;
+}
+
+.details strong {
+    color: #2d3748;
+}
+
+.redirectInfo {
+    margin-top: 1.5rem;
+}
+
+.redirectInfo p {
+    color: #718096;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.homeButton {
+    padding: 0.75rem 1.5rem;
+    background: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.homeButton:hover {
+    background: #3182ce;
+    transform: translateY(-1px);
+}
